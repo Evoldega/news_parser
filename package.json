@@ -1,0 +1,23 @@
+{
+  "name": "news_parser",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "gigachat": "^0.0.18",
+    "nodemon": "^3.1.11",
+    "rss-parser": "^3.13.0",
+    "telegraf": "^4.16.3",
+    "uuid": "^13.0.0"
+  },
+  "type": "module"
+}
